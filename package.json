@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "author": "Vetto",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.31"
+  }
+}
