@@ -8,6 +8,7 @@ function multiplicar(x: number,y: number): number{
     return x * y
 }
 
+//Typescript export
 export default {
     somar,
     subtrair,
