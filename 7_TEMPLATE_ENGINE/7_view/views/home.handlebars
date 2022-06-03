@@ -1,0 +1,15 @@
+<h1>OLÁ MUNDO!!</h1>
+<p>O nome do usuario é {{user.name}} {{user.surname}} e tem {{user.age}} anos de idade </p>
+<h2> {{palavra}} </h2>
+
+{{#if approved}}
+    <p>Parabéns! Você foi aprovado</p>
+{{else }}
+    <p>O seu cadastro necessita de aprovação!</p>
+{{/if}}
+{{#if auth}}
+    <p>
+        Você está autenticado, <a href="/dashboard">clique aqui</a> para acessar a área de dashboard
+    </p>
+
+{{/if}}
